@@ -410,6 +410,7 @@ a:hover {
   background-color: #FF6200;
   width: 100%;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
