@@ -407,10 +407,11 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-image: linear-gradient(to left, #FF6200, #FFC100);
+  background-image: radial-gradient(circle, #FF6200, #a53f00);
   width: 100%;
   margin-bottom: 0;
   text-align: center;
+  border-bottom: 5px solid #000000; /* Bottom border */
 }
 
 .navbar-dark .navbar-nav .nav-link {
