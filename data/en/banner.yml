@@ -1,8 +1,8 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
+  bg_image_webp : "images/backgrounds/bg1-2.jpg"
+  bg_image : "images/backgrounds/bg1-2.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Next-Gen Future-Proof Designs"
   content : "We offer a diverse range of digital solutions, with a particular focus on modern web design. Our expertise lies in creating captivating online experiences that elevate brand presence and drive results."
