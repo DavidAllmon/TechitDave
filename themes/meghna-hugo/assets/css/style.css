@@ -557,17 +557,23 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #09335c;
+  background: radial-gradient(circle, #000000, #0b385e);
   border-radius: 10px;
-  box-shadow: 0 0px 5px #FF6200;
+  box-shadow: 0 0px 5px #ffffff;
   padding: 30px;
   border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #FF6200;
+  border-bottom: 1px solid #FF6200;
+  border-top: 1px solid #FF6200;
+  border-left: 1px solid #FF6200;
+  border-right: 1px solid #FF6200;
 }
 
 .about .block:hover .icon-box {
