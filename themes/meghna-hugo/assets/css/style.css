@@ -413,6 +413,9 @@ a:hover {
   text-align: center;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff; /* Set default color to white */
+}
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,

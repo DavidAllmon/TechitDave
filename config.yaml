@@ -95,25 +95,25 @@ Languages:
   en:
     menu:
       main:
-        - name: about
+        - name: About
           url: '#about'
           weight: 1
-        - name: services
+        - name: Services
           url: '#services'
           weight: 2
-        - name: portfolio
+        - name: Portfolio
           url: '#portfolio'
           weight: 3
-        - name: team
+        - name: Team
           url: '#team'
           weight: 4
-        - name: pricing
+        - name: Pricing
           url: '#pricing'
           weight: 5
-        - name: blog
+        - name: Blog
           url: '#blog'
           weight: 6
-        - name: contact
+        - name: Contact
           url: '#contact'
           weight: 7
         #- name: Dropdown
