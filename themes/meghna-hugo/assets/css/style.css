@@ -413,10 +413,10 @@ a:hover {
   margin-bottom: 0;
   text-align: center;
   height: 100px;
-  display: inline;
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
-/*border-bottom: 5px solid #000000; /* Bottom border */
+/*  display: inline;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #000000; */
 }
 
 .navbar-dark .navbar-nav .nav-link {
