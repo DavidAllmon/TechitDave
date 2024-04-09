@@ -63,7 +63,7 @@ params:
   google_analytics_id: ''
   post_share: true
   preloader:
-    enable: true
+    enable: false
     preloader: images/logo.png
   cookies:
     enable: false
@@ -89,7 +89,7 @@ params:
     - icon: ti-pinterest
       link: '#'
   crisp_chat:
-    enable: false
+    enable: true
     crisp_website_id: de89ddb4-b697-4230-9cc2-e2d82d6387ef
 Languages:
   en:
