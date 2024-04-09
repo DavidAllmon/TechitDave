@@ -1,12 +1,12 @@
 baseURL: 'https://techitdave.pages.dev'
-title: Meghna
+title: TechitDave
 theme: meghna-hugo
 timeZone: America/New_York
 paginate: 6
 summaryLength: 15
-googleAnalytics: UA-123456-78
-disqusShortname: themefisher-template
-disableLanguages: []
+#googleAnalytics: 
+disqusShortname: TechitDave
+disableLanguages: [fr]
 hasCJKLanguage: false
 build:
   noJSConfigInAssets: false
@@ -56,12 +56,12 @@ params:
       - link: plugins/lazy-load/lozad.min.js
       - link: plugins/google-map/map.js
   logo: images/logo.png
-  description: Responsive Multipurpose Parallax Hugo Template
-  author: Themefisher
+  description: Web Design
+  author: David Allmon
   google_analytics_id: ''
   post_share: true
   preloader:
-    enable: false
+    enable: true
     preloader: images/logo.png
   cookies:
     enable: false
@@ -111,20 +111,17 @@ Languages:
         - name: contact
           url: '#contact'
           weight: 7
-        - name: Dropdown
-          weight: 7
-          hasChildren: true
-        - parent: Dropdown
-          name: Dropdown 1
-          url: '#'
-          weight: 1
-        - parent: Dropdown
-          name: Dropdown 2
-          url: '#'
-          weight: 2
-        - name: themefisher
-          url: 'https://themefisher.com/'
-          weight: 8
+        #- name: Dropdown
+        #  weight: 7
+        #  hasChildren: true
+        #- parent: Dropdown
+        #  name: Dropdown 1
+        #  url: '#'
+        #  weight: 1
+        #- parent: Dropdown
+        #  name: Dropdown 2
+        #  url: '#'
+        #  weight: 2
     languageName: En
     languageCode: en-us
     contentDir: content/english
@@ -132,8 +129,7 @@ Languages:
       weight: 1
       home: Home
       copyright: >-
-        Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com)
-        & Developed by [Gethugothemes](https://gethugothemes.com)
+        Copyright &copy; 2024 Designed by [TechitDave](https://techitdave.com)
   fr:
     menu:
       main:
