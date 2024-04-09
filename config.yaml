@@ -1,0 +1,172 @@
+baseURL: 'https://techitdave.pages.dev'
+title: Meghna
+theme: meghna-hugo
+timeZone: America/New_York
+paginate: 6
+summaryLength: 15
+googleAnalytics: UA-123456-78
+disqusShortname: themefisher-template
+disableLanguages: []
+hasCJKLanguage: false
+build:
+  noJSConfigInAssets: false
+  useResourceCacheWhen: fallback
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: assets/.*\.(js|ts|jsx|tsx)
+      target: (js|scripts|javascript)
+    - source: assets/.*\.(css|sass|scss)$
+      target: (css|styles|scss|sass)
+    - source: assets/.*\.(.*)$
+      target: $1
+outputs:
+  home:
+    - HTML
+    - RSS
+imaging:
+  quality: 90
+  resampleFilter: lanczos
+caches:
+  images:
+    dir: ':resourceDir/_gen'
+    maxAge: 720h
+  assets:
+    dir: ':resourceDir/_gen'
+    maxAge: 720h
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/magnific-popup/magnific-popup.css
+      - link: plugins/slick/slick.css
+      - link: >-
+          https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap
+    js:
+      - link: plugins/jquery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/shuffle/shuffle.min.js
+      - link: plugins/magnific-popup/jquery.magnific-popup.min.js
+      - link: plugins/lazy-load/lozad.min.js
+      - link: plugins/google-map/map.js
+  logo: images/logo.png
+  description: Responsive Multipurpose Parallax Hugo Template
+  author: Themefisher
+  google_analytics_id: ''
+  post_share: true
+  preloader:
+    enable: false
+    preloader: images/logo.png
+  cookies:
+    enable: false
+    expire_days: 2
+  map:
+    enable: false
+    gmap_api: >-
+      https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
+    map_latitude: '51.5223477'
+    map_longitude: '-0.1622023'
+    map_marker: images/marker.png
+  social:
+    - icon: ti-facebook
+      link: '#'
+    - icon: ti-twitter-alt
+      link: '#'
+    - icon: ti-youtube
+      link: '#'
+    - icon: ti-linkedin
+      link: '#'
+    - icon: ti-dribbble
+      link: '#'
+    - icon: ti-pinterest
+      link: '#'
+Languages:
+  en:
+    menu:
+      main:
+        - name: about
+          url: '#about'
+          weight: 1
+        - name: services
+          url: '#services'
+          weight: 2
+        - name: portfolio
+          url: '#portfolio'
+          weight: 3
+        - name: team
+          url: '#team'
+          weight: 4
+        - name: pricing
+          url: '#pricing'
+          weight: 5
+        - name: blog
+          url: '#blog'
+          weight: 6
+        - name: contact
+          url: '#contact'
+          weight: 7
+        - name: Dropdown
+          weight: 7
+          hasChildren: true
+        - parent: Dropdown
+          name: Dropdown 1
+          url: '#'
+          weight: 1
+        - parent: Dropdown
+          name: Dropdown 2
+          url: '#'
+          weight: 2
+        - name: themefisher
+          url: 'https://themefisher.com/'
+          weight: 8
+    languageName: En
+    languageCode: en-us
+    contentDir: content/english
+    params:
+      weight: 1
+      home: Home
+      copyright: >-
+        Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com)
+        & Developed by [Gethugothemes](https://gethugothemes.com)
+  fr:
+    menu:
+      main:
+        - name: sur
+          url: '#about'
+          weight: 1
+        - name: un service
+          url: '#services'
+          weight: 2
+        - name: portefeuille
+          url: '#portfolio'
+          weight: 3
+        - name: équipe
+          url: '#team'
+          weight: 4
+        - name: tarification
+          url: '#pricing'
+          weight: 5
+        - name: blog
+          url: '#blog'
+          weight: 6
+        - name: contact
+          url: '#contact'
+          weight: 7
+        - name: themefisher
+          url: 'https://themefisher.com/'
+          weight: 8
+    languageName: Fr
+    languageCode: fr-fr
+    contentDir: content/french
+    weight: 2
+    params:
+      home: Accueil
+      copyright: >-
+        Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com)
+        & Developed by [Gethugothemes](https://gethugothemes.com)
