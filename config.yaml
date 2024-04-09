@@ -1,4 +1,6 @@
 baseURL: 'https://techitdave.pages.dev'
+imports:
+  - path: github.com/gethugothemes/hugo-modules/components/crisp-chat
 title: TechitDave
 theme: meghna-hugo
 timeZone: America/New_York
@@ -86,6 +88,9 @@ params:
       link: '#'
     - icon: ti-pinterest
       link: '#'
+  crisp_chat:
+    enable: false
+    crisp_website_id: de89ddb4-b697-4230-9cc2-e2d82d6387ef
 Languages:
   en:
     menu:
