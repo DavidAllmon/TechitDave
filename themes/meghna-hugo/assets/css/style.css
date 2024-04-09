@@ -559,7 +559,7 @@ a:hover {
 .about .block {
   background: #002355;
   border-radius: 10px;
-  box-shadow: 0 0px 9px #ffffff;
+  box-shadow: 0 0px 5px #FF6200;
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
