@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #FF6200;
+  background-image: linear-gradient(to left, #FF6200, #FFC100);
   width: 100%;
   margin-bottom: 0;
   text-align: center;
