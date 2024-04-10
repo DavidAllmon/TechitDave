@@ -561,19 +561,20 @@ a:hover {
   border-radius: 10px;
   box-shadow: 0 0px 5px #ffffff;
   padding: 30px;
-  border-bottom: 2px solid transparent;
-  border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
-  border-right: 2px solid transparent;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
   transition: .5s all;
   margin-bottom: 20px;
 }
 
 .about .block:hover {
-  border-bottom: 1px solid #FF6200;
-  border-top: 1px solid #FF6200;
-  border-left: 1px solid #FF6200;
-  border-right: 1px solid #FF6200;
+  border-bottom: 2px solid #FF6200;
+  border-top: 2px solid #FF6200;
+  border-left: 2px solid #FF6200;
+  border-right: 2px solid #FF6200;
 }
 
 .about .block:hover .icon-box {
@@ -625,7 +626,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-  color: #afbac4;
+  color: #ffffff;
 }
 
 /*=================================================================
