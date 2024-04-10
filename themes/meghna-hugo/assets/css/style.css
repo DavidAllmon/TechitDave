@@ -8,14 +8,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
-  color: #737f8a;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 body {
-  background-color: #353b43;
+  background-color: #000000;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,7 +27,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: #ffffff;
 }
 
 p {
@@ -324,7 +324,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #000000;
 }
 
 .overly {
@@ -634,6 +634,7 @@ a:hover {
 ==================================================================*/
 .about-2 .content-block {
   padding: 40px;
+  background-color: #000;
   color: #ffffff;
 }
 
@@ -642,7 +643,7 @@ a:hover {
 }
 
 .about-2 .content-block .media .pull-left {
-  padding-right: 15px;
+  padding-right: 0px;
 }
 
 .about-2 .content-block .media i {
