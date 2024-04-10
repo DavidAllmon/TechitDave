@@ -66,7 +66,7 @@ params:
     enable: false
     preloader: images/logo.png
   cookies:
-    enable: false
+    enable: true
     expire_days: 2
   map:
     enable: false
@@ -169,5 +169,4 @@ Languages:
     params:
       home: Accueil
       copyright: >-
-        Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com)
-        & Developed by [Gethugothemes](https://gethugothemes.com)
+        Copyright &copy; 2024 Designed by [TechitDave](https://techitdave.com)
