@@ -559,13 +559,13 @@ a:hover {
 .about .block {
   background: radial-gradient(circle, #000000, #0b385e);
   border-radius: 10px;
-  box-shadow: 0 0px 5px #ffffff;
+  box-shadow: 0 0px 0px #ffffff;
   padding: 30px;
   color: #ffffff;
-  border-bottom: 2px solid #ffffff;
-  border-top: 2px solid #ffffff;
-  border-left: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
 }
