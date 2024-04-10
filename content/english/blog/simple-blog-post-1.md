@@ -7,7 +7,7 @@ author: John Doe
 description : "This is meta description"
 ---
 
-## You
+## ChatGPT Explains code
 
 Explain the following code
 
