@@ -64,7 +64,7 @@ params:
   post_share: true
   preloader:
     enable: false
-    preloader: images/logo.png
+    preloader: images/logo1.gif
   cookies:
     enable: false
     expire_days: 2
